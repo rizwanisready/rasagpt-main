@@ -1,0 +1,173 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: company
+  examples: |
+    - tell me about your business?
+    - are you a service provider?
+    - what do you offer
+    - what are you dealing in?
+    - how many websites you delivered till date
+    - how many mobile app you made till now
+    - what are your about us
+    - about yourself?
+    - who are you
+    - who are you?
+    - How can I contact your office?
+    - How can I contact you?
+    - WDI
+    - Website Developers India Pvt Ltd
+    - Website Developers India
+    - Website Name?
+    - Website address?
+    - What technologies do you use
+    - list all technologies you are using
+    - what type of technologies do you prefer
+
+- intent: technology
+  examples: |
+    - tell me about python
+    - what is javaScript
+    - what is django
+    - is React Js easy
+    - What is React Js
+    - do u use React Js tachnology
+    - i want to learn react.js
+    - react.js and Native is javaScript framework
+    - react.js and React Native
+    - about business analyst roles and responsibilities
+    - what is php
+    - what is laravel
+    - what is machine learning
+    - what is artifical intelligence
+    - can you tell me about ai/ml
+    - is AI ML the next future
+    - what are the courses in AIML
+    - does SEO increase website ranking
+    - How SEO can help us grow
+    - what is Digital Marketing
+    - is MongoDB the best database
+    - what is Mongo DB
+    - what is MERN Stack
+    - Framework of javaScript - Angular
+    - what is Angular
+    - Framework Vue - JavaScript
+    - what is WordPress
+    - WordPress website
+    - WordPress technology
+    - about WordPress
+    - what is Graphic Designer
+    - about Graphic Designer
+    - do you know about Graphic Designer
+    - I want Graphic Designer
+    - what is NodeJS
+    - i want to know about node.js
+    - what is flutter
+    - I want to know about flutter
+    - can you tell me aboutn react native
+    - business startup
+    - startup business
+    - starting up a new business
+    - how seo helps in advertising
+    - One of the biggest challenges for startups is securing funding to support growth and expansion
+    - Scaling a startup requires careful planning and strategic decision-making
+    - The team at this startup is made up of diverse and talented individuals with a shared vision for success
+    - Our startup is based on a disruptive business model that challenges traditional industry norms
+    - We're excited to know about the startup ecosystem
+    - The founders of this startup have a strong background in tech and entrepreneurship
+    - Adapting to stay ahead of the competition
+    - We're looking for angel investors to help fund our startup and bring our idea to life
+    - The key to success for any startup is a solid business plan
+    - Our startup is focused on developing innovative AI technology for healthcare
+
+
+
